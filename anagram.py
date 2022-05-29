@@ -9,13 +9,13 @@ def tellAnagram():
         aLen = len(a)
         bLen = len(b)
         if aLen != bLen:
-            print("Not an Anagram")
+            print("Lengths are not equal, Not an Anagram")
             break
         for i in range(aLen):
             v = a[i]
             if v in b:
                 acount = acount +1
-        print (f"\n{acount} found, {aLen} needed\n")
+        print (f"\n{acount} match(es) found, {aLen} match(es) needed\n")
         if acount != aLen:
             print("Words are not Anagrams")
         else:

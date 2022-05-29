@@ -1,0 +1,23 @@
+main{
+    font-family: system-ui;
+    color: black;
+    text-align: center;
+  }
+  
+  #main-container{
+    width: 90%;
+    margin: auto;
+  }
+  
+  
+  h1,p{
+    color: black;
+  }
+  
+  figure{
+    max-width: 100%;
+    width: 240px;
+    height: 240px;
+    position: relative;
+  }
+  
